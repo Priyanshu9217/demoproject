@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //1
+        function sum(math,eng,sc)
+        {
+            let s= math+ eng+ sc;
+            return s;
+        }
+        function percentage(total)
+        {
+            let per= total/300*100;
+            document.write(per);
+        }
+        let total = sum(40,40,40);
+        percentage(total);
+
+        //2
+        function itm(data)
+        {
+            //console.log(data)
+            //document.write(data.name)
+            data.name= "rohit"
+            data.city= "delhi"
+        }
+        const user ={
+            name:"ram",
+            city:"gwalior"
+        }
+        itm(user)
+        console.log(user.city)
+
+        //3
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
