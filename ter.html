@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <script>
-        var a= 10
-        var b= "ram"
-        var c= true;
-        var d= 56.4
-        var e= ["ram", true,56.3,45]  //array
+        let a=1000;
+        let b;
 
+        (a==100)? b="true" : b="false";
 
-        document.write(e)
+         b = (a==500)? b="true" : b="false";
+
+         b= "value is " + (a==100 ? "true" : "false"); //single statement only
+
+         document.write(b)
     </script>
 </head>
 <body>

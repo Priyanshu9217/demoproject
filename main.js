@@ -1,1 +1,0 @@
-document.write("<h1>Hello Gwalior123</h1>")
